@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lobster+Two:wght@700&family=Redressed&display=swap');
+*{
+	font-family: 'Gideon Roman', cursive;
+	font-weight: bold;	
+}
+.inimg{
+    display: inline-block;
+}
+.mybody{
+	background: url(../Others/bg.jpg);
+}
+.container{
+    text-align: center;
+    margin-top:1%;
+}
+
+table{
+    margin: auto;
+}
+h1{
+    font-size: 78px;
+    color: #040b9b;
+    margin-right: 0%;
+    margin-top: 9%;
+    padding-top: 0;
+    
+}
+input{
+	margin-top: 5%;
+    border-radius: 24px;
+    border: 5px solid #3da5a4;
+    background-color: #bdfff8;
+    font-size: 32px;
+    margin-bottom: 5%;
+    height: 9vh;
+    width: 57vh;
+}
+
+button{
+	border-radius: 88px;
+    font-size: 40px;
+    background: #14dcca;
+    width: 13vh;
+    height: 12vh;
+    margin: 6px;
+}
+
+.calculator{ 
+    
+    border: 4px solid #0cd4ff;
+    background-color: #040b9b;
+    padding: 27px;
+    border-radius: 61px;
+    display: inline-block;
+
+}
+
+/* h1{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+} */
