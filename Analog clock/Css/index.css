@@ -1,0 +1,46 @@
+body{
+    background: radial-gradient(blue,rgb(0, 247, 255),rgb(223, 223, 101)) ;
+}
+#clockcontainer{
+    /* background: url(../Others/clock22\ \(2\).png) no-repeat; */
+    /* border-radius: 78% 74% 71% 77%; */
+    background: url(../Others/clockcc.jpeg) no-repeat;
+    border-radius: 78% 76% 77% 81%;
+    background-size: 100%;
+    width: 35vw;
+    height: 38vw;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 33%;
+
+}
+#hourHand, #minuteHand, #secondHand{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hourHand{
+    background: #ff5e00;
+    width: 1.8%;
+    height: 21%;
+    top: 26%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+#minuteHand{
+    background: #004fff;
+    width: 1.3%;
+    height: 29%;
+    top: 19%;
+    left: 50.1%;
+    opacity: 0.8;
+}
+#secondHand{
+    background: black;
+    width: 1.1%;
+    height: 31%;
+    top: 16%;
+    left: 51.2%;
+    opacity: 0.8;
+}
